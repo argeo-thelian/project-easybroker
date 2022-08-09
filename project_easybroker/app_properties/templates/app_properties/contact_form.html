@@ -1,0 +1,53 @@
+<div style="height: 38rem;">
+
+    
+    <form action="{% url 'easybroker:contact' payload_property.public_id %}" method="POST">
+        {% csrf_token %}
+
+        
+        <div class="input-group mb-0 p-3">
+            <span class="input-group-text" id="basic-addon1">Nombre: </span>
+            <input type="text" class="form-control" placeholder="name" aria-label="name" aria-describedby="basic-addon1"
+            name="name" id="name" value="{{data_validate.name}}"  maxlength="30" required>
+        </div>
+        {% if error_message.valida_nombre %}<p class="fs-6 text-danger">{{ error_message.valida_nombre }}</p>{% endif %}
+        
+        <div class="input-group mb-0 p-3">
+            <span class="input-group-text" id="basic-addon2">Teléfono: </span>
+            <input 
+            title="Ejemplo: 5522334422"
+            type="tel" class="form-control" placeholder="5522334422" aria-label="phone" aria-describedby="basic-addon2"
+            pattern="[0-9]{10}"
+            name="phone" id="phone" maxlength="10" minlength="10"   value="{{data_validate.phone}}" required >
+        </div>
+        {% if error_message.valida_phone %}<p class="fs-6 text-danger">{{ error_message.valida_phone }}</p>{% endif %}
+
+
+        <div class="input-group mb-0 p-3">
+            <span class="input-group-text" id="basic-addon3">email: </span>
+            <input type="email" class="form-control" placeholder="email@correo.com" aria-label="email" aria-describedby="basic-addon3"
+            name="email" id="email" value="{{data_validate.email}}" >
+        </div>
+        {% if error_message.valida_email %}<p class="fs-6 text-danger">{{ error_message.valida_email }}</p>{% endif %}
+
+        <div class="mb-3 p-3 " >
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+            <textarea class="form-control " id="exampleFormControlTextarea1" rows="3"
+                style="resize: none;"
+                placeholder="Escribe un mensaje"
+                name="message" id="message">{{data_validate.message}}</textarea>
+        </div>
+        {% if error_message.valida_message %}<p class="fs-6 text-danger">{{ error_message.valida_message }}</p>{% endif %}
+
+        <div class="input-group mb-0 p-3">
+            <input class="btn btn-outline-secondary" type="submit" value="Enviar">
+        </div>
+        {% if "successful" in status %}
+        <p class="fs-6 text-success">{{ status }}</p>
+        {% else %}
+        <p class="fs-6 text-danger">{{ status }}</p>
+
+        {% endif %}
+
+    </form>
+</div>

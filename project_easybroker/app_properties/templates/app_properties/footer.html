@@ -1,0 +1,47 @@
+<div class="container-fluid p-2 bg-primary ">
+    {% if pagination_data %}
+    <nav aria-label="Page navigation example">
+        <ul class="nav justify-content-center pagination">
+            <li class="nav-item page-item">
+                <a class="page-link" href="{% url 'easybroker:home' 1%}" aria-label="Previous">
+                <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            
+            {% if pagination_data.previous_page2  %}
+            <li class="nav-item page-item "><a class="page-link " href="{% url 'easybroker:home' pagination_data.previous_page2 %}">{{pagination_data.previous_page2}}</a></li> 
+            {% endif %}
+            {% if pagination_data.previous_page1  %}
+            <li class="nav-item page-item"><a class="page-link" href="{% url 'easybroker:home' pagination_data.previous_page1 %}">{{pagination_data.previous_page1}}</a></li> 
+            {% endif %}
+            {% if pagination_data.previous_page %}
+            <li class="nav-item page-item"><a class="page-link" href="{% url 'easybroker:home' pagination_data.previous_page %}">{{pagination_data.previous_page}}</a></li>
+            {% else %} 
+            {% endif %}
+            
+            <li class="nav-item page-item" ><a class="page-link" href="{% url 'easybroker:home' pagination_data.current_page %}">{{pagination_data.current_page}}</a></li>
+            
+            {% if pagination_data.next_page %}
+            <li class="nav-item page-item"><a class="page-link" href="{% url 'easybroker:home' pagination_data.next_page %}">{{pagination_data.next_page}}</a></li>
+            {% else %} 
+            {% endif %}
+            {% if pagination_data.next_page1  %}
+            <li class="nav-item page-item"><a class="page-link" href="{% url 'easybroker:home' pagination_data.next_page1 %}">{{pagination_data.next_page1}}</a></li> 
+            {% endif %}
+            {% if pagination_data.next_page2  %}
+            <li class="nav-item page-item"><a class="page-link" href="{% url 'easybroker:home' pagination_data.next_page2 %}">{{pagination_data.next_page2}}</a></li> 
+            {% endif %} 
+            
+            <li class="nav-item page-item">
+                <a class="page-link" href="{% url 'easybroker:home' pagination_data.num_pages %}" aria-label="Next">
+                <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    {% else %} 
+        
+    {% endif %}
+
+    
+</div>

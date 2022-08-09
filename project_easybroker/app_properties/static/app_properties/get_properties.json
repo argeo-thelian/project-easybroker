@@ -1,0 +1,445 @@
+{
+    "pagination": {
+      "limit": 15,
+      "page": 1,
+      "total": 460,
+      "next_page": "https://api.stagingeb.com/v1/properties?limit=15&page=2&search%5Bstatuses%5D%5B%5D=published"
+    },
+    "content": [
+      {
+        "public_id": "EB-D3662",
+        "title": "Beautiful property in Condesa.",
+        "title_image_full": null,
+        "title_image_thumb": null,
+        "location": "Carmen Serdan, Monterrey, Nuevo León",
+        "operations": [
+          {
+            "type": "rental",
+            "amount": 20000,
+            "currency": "MXN",
+            "formatted_amount": "$20,000",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "parking_spaces": 1,
+        "property_type": "Departamento",
+        "lot_size": 0,
+        "construction_size": 0,
+        "updated_at": "2022-06-03T17:26:08-05:00",
+        "agent": null,
+        "show_prices": true,
+        "share_commission": true
+      },
+      {
+        "public_id": "EB-D3668",
+        "title": "Beautiful property in Condesa.",
+        "title_image_full": null,
+        "title_image_thumb": null,
+        "location": "Carmen Serdan, Monterrey, Nuevo León",
+        "operations": [
+          {
+            "type": "rental",
+            "amount": 20000,
+            "currency": "MXN",
+            "formatted_amount": "$20,000",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "parking_spaces": 1,
+        "property_type": "Departamento",
+        "lot_size": 0,
+        "construction_size": 0,
+        "updated_at": "2022-06-06T14:41:41-05:00",
+        "agent": null,
+        "show_prices": true,
+        "share_commission": true
+      },
+      {
+        "public_id": "EB-C0156",
+        "title": "Casa con uso de suelo prueba",
+        "title_image_full": "https://assets.stagingeb.com/property_images/30156/116630/EB-C0156.png?version=1598540675",
+        "title_image_thumb": "https://assets.stagingeb.com/property_images/30156/116630/EB-C0156_thumb.png?version=1598540675",
+        "location": "La Punta, Cosío, Aguascalientes",
+        "operations": [
+          {
+            "type": "sale",
+            "amount": 12312312,
+            "currency": "MXN",
+            "formatted_amount": "$12,312,312",
+            "commission": {
+              "type": "percentage",
+              "value": "5.0"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 1,
+        "bathrooms": 2,
+        "parking_spaces": null,
+        "property_type": "Casa con uso de suelo",
+        "lot_size": 0,
+        "construction_size": 0,
+        "updated_at": "2022-08-07T14:02:08-05:00",
+        "agent": "Alejandro Blanco Zivec",
+        "show_prices": true,
+        "share_commission": true
+      },
+      {
+        "public_id": "EB-C0313",
+        "title": "afsdf",
+        "title_image_full": null,
+        "title_image_thumb": null,
+        "location": "Ciudad Insurgentes, Comondú, Baja California Sur",
+        "operations": [
+          {
+            "type": "sale",
+            "amount": 234223,
+            "currency": "MXN",
+            "formatted_amount": "$234,223",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": null,
+        "bathrooms": null,
+        "parking_spaces": null,
+        "property_type": "Bodega industrial",
+        "lot_size": 342,
+        "construction_size": 432,
+        "updated_at": "2022-08-07T14:07:42-05:00",
+        "agent": "Alejandro Blanco Zivec",
+        "show_prices": true,
+        "share_commission": true
+      },
+      {
+        "public_id": "EB-B5338",
+        "title": "Locales en Venta Edificio Roble en San Pedro Garza Garcia",
+        "title_image_full": "https://assets.stagingeb.com/property_images/25338/49435/EB-B5338.jpg?version=1555543329",
+        "title_image_thumb": "https://assets.stagingeb.com/property_images/25338/49435/EB-B5338_thumb.jpg?version=1555543329",
+        "location": "Valle Del Campestre, San Pedro Garza García, Nuevo León",
+        "operations": [
+          {
+            "type": "sale",
+            "amount": 5506200,
+            "currency": "MXN",
+            "formatted_amount": "$5,506,200",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": null,
+        "bathrooms": null,
+        "parking_spaces": null,
+        "property_type": "Local comercial",
+        "lot_size": 0,
+        "construction_size": 61,
+        "updated_at": "2022-08-07T14:08:49-05:00",
+        "agent": "Alejandro Blanco Zivec",
+        "show_prices": true,
+        "share_commission": false
+      },
+      {
+        "public_id": "EB-C6351",
+        "title": "CASA EN VENTA EN COLONIA DEL VALLE EN SAN PEDRO GARZA GARCÍA",
+        "title_image_full": "https://assets.stagingeb.com/property_images/36351/126571/EB-C6351.jpg?version=1611968241",
+        "title_image_thumb": "https://assets.stagingeb.com/property_images/36351/126571/EB-C6351_thumb.jpg?version=1611968241",
+        "location": "Del Valle, San Pedro Garza García, Nuevo León",
+        "operations": [
+          {
+            "type": "sale",
+            "amount": 30850000,
+            "currency": "MXN",
+            "formatted_amount": "$30,850,000",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "parking_spaces": null,
+        "property_type": "Casa",
+        "lot_size": 590,
+        "construction_size": 610,
+        "updated_at": "2022-08-07T14:24:50-05:00",
+        "agent": null,
+        "show_prices": true,
+        "share_commission": false
+      },
+      {
+        "public_id": "EB-C6352",
+        "title": "CASA EN VENTA EN FUENTES DEL VALLE EN SAN PEDRO GARZA GARCIA",
+        "title_image_full": "https://assets.stagingeb.com/property_images/36352/126577/EB-C6352.jpg?version=1611968245",
+        "title_image_thumb": "https://assets.stagingeb.com/property_images/36352/126577/EB-C6352_thumb.jpg?version=1611968245",
+        "location": "Fuentes del Valle, San Pedro Garza García, Nuevo León",
+        "operations": [
+          {
+            "type": "sale",
+            "amount": 28300000,
+            "currency": "MXN",
+            "formatted_amount": "$28,300,000",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 4,
+        "bathrooms": 1,
+        "parking_spaces": 3,
+        "property_type": "Casa",
+        "lot_size": 476,
+        "construction_size": 628,
+        "updated_at": "2022-08-07T14:24:50-05:00",
+        "agent": null,
+        "show_prices": true,
+        "share_commission": false
+      },
+      {
+        "public_id": "EB-C6353",
+        "title": "DEPARTAMENTO EN VENTA EN MIRAVALLE EN MONTERREY",
+        "title_image_full": "https://assets.stagingeb.com/property_images/36353/126583/EB-C6353.jpg?version=1611968250",
+        "title_image_thumb": "https://assets.stagingeb.com/property_images/36353/126583/EB-C6353_thumb.jpg?version=1611968250",
+        "location": "Rincón de Santa María, Monterrey, Nuevo León",
+        "operations": [
+          {
+            "type": "sale",
+            "amount": 6278000,
+            "currency": "MXN",
+            "formatted_amount": "$6,278,000",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "parking_spaces": null,
+        "property_type": "Departamento",
+        "lot_size": 0,
+        "construction_size": 172,
+        "updated_at": "2022-08-07T14:24:50-05:00",
+        "agent": null,
+        "show_prices": true,
+        "share_commission": false
+      },
+      {
+        "public_id": "EB-C6356",
+        "title": "DEPARTAMENTO EN VENTA EN ARBOLEDA EN SAN PEDRO GARZA GARCIA",
+        "title_image_full": "https://assets.stagingeb.com/property_images/36356/126606/EB-C6356.jpg?version=1611968275",
+        "title_image_thumb": "https://assets.stagingeb.com/property_images/36356/126606/EB-C6356_thumb.jpg?version=1611968275",
+        "location": "Valle Del Campestre, San Pedro Garza García, Nuevo León",
+        "operations": [
+          {
+            "type": "sale",
+            "amount": 22000000,
+            "currency": "MXN",
+            "formatted_amount": "$22,000,000",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "parking_spaces": 2,
+        "property_type": "Departamento",
+        "lot_size": 0,
+        "construction_size": 310,
+        "updated_at": "2022-08-07T14:24:50-05:00",
+        "agent": null,
+        "show_prices": true,
+        "share_commission": false
+      },
+      {
+        "public_id": "EB-C6372",
+        "title": "DEPARTAMENTO EN VENTA EN VALLE PONIENTE",
+        "title_image_full": "https://assets.stagingeb.com/property_images/36372/126743/EB-C6372.jpg?version=1611968339",
+        "title_image_thumb": "https://assets.stagingeb.com/property_images/36372/126743/EB-C6372_thumb.jpg?version=1611968339",
+        "location": "Zona Valle Poniente, San Pedro Garza García, Nuevo León",
+        "operations": [
+          {
+            "type": "sale",
+            "amount": 4500000,
+            "currency": "MXN",
+            "formatted_amount": "$4,500,000",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 2,
+        "bathrooms": null,
+        "parking_spaces": null,
+        "property_type": "Departamento",
+        "lot_size": 0,
+        "construction_size": 140,
+        "updated_at": "2022-08-07T14:24:50-05:00",
+        "agent": null,
+        "show_prices": true,
+        "share_commission": false
+      },
+      {
+        "public_id": "EB-C6374",
+        "title": "DEPARTAMENTO EN VENTA EN VALLE ORIENTE EN SAN PEDRO GARZA GARCÍA",
+        "title_image_full": "https://assets.stagingeb.com/property_images/36374/126751/EB-C6374.jpg?version=1611968342",
+        "title_image_thumb": "https://assets.stagingeb.com/property_images/36374/126751/EB-C6374_thumb.jpg?version=1611968342",
+        "location": "Del Valle Oriente, San Pedro Garza García, Nuevo León",
+        "operations": [
+          {
+            "type": "sale",
+            "amount": 850000,
+            "currency": "USD",
+            "formatted_amount": "US$ 850,000",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "parking_spaces": 2,
+        "property_type": "Departamento",
+        "lot_size": 0,
+        "construction_size": 403,
+        "updated_at": "2022-08-07T14:24:50-05:00",
+        "agent": null,
+        "show_prices": true,
+        "share_commission": false
+      },
+      {
+        "public_id": "EB-D3232",
+        "title": "Una casa chida",
+        "title_image_full": null,
+        "title_image_thumb": null,
+        "location": "Campestre San Carlos, San Francisco de los Romo, Aguascalientes",
+        "operations": [
+          {
+            "type": "sale",
+            "currency": "MXN",
+            "formatted_amount": "Consulte precio",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 1,
+        "bathrooms": null,
+        "parking_spaces": null,
+        "property_type": "Casa",
+        "lot_size": 0,
+        "construction_size": 0,
+        "updated_at": "2022-08-07T14:24:50-05:00",
+        "agent": "Alejandro Blanco Zivec",
+        "show_prices": true,
+        "share_commission": true
+      },
+      {
+        "public_id": "EB-D3658",
+        "title": "Beautiful property in Condesa.",
+        "title_image_full": null,
+        "title_image_thumb": null,
+        "location": "Carmen Serdan, Monterrey, Nuevo León",
+        "operations": [
+          {
+            "type": "rental",
+            "amount": 20000,
+            "currency": "MXN",
+            "formatted_amount": "$20,000",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "parking_spaces": 1,
+        "property_type": "Departamento",
+        "lot_size": 0,
+        "construction_size": 0,
+        "updated_at": "2022-08-07T14:24:50-05:00",
+        "agent": null,
+        "show_prices": true,
+        "share_commission": true
+      },
+      {
+        "public_id": "EB-C6361",
+        "title": "DEPARTAMENTO EN VENTA EN PLAYA DEL CARMEN EN QUINTANA ROO",
+        "title_image_full": "https://assets.stagingeb.com/property_images/36361/126686/EB-C6361.jpg?version=1611968316",
+        "title_image_thumb": "https://assets.stagingeb.com/property_images/36361/126686/EB-C6361_thumb.jpg?version=1611968316",
+        "location": "Playa del Carmen Centro, Solidaridad, Quintana Roo",
+        "operations": [
+          {
+            "type": "sale",
+            "amount": 368960,
+            "currency": "USD",
+            "formatted_amount": "US$ 368,960",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 2,
+        "bathrooms": null,
+        "parking_spaces": null,
+        "property_type": "Departamento",
+        "lot_size": 0,
+        "construction_size": 97.5,
+        "updated_at": "2022-08-07T14:24:51-05:00",
+        "agent": null,
+        "show_prices": true,
+        "share_commission": false
+      },
+      {
+        "public_id": "EB-C6365",
+        "title": "DEPARTAMENTO EN VENTA EN TORRE LIU EAST EN SAN PEDRO GARZA GARCIA",
+        "title_image_full": "https://assets.stagingeb.com/property_images/36365/126710/EB-C6365.jpg?version=1611968326",
+        "title_image_thumb": "https://assets.stagingeb.com/property_images/36365/126710/EB-C6365_thumb.jpg?version=1611968326",
+        "location": "Del Valle Oriente, San Pedro Garza García, Nuevo León",
+        "operations": [
+          {
+            "type": "sale",
+            "amount": 7500000,
+            "currency": "MXN",
+            "formatted_amount": "$7,500,000",
+            "commission": {
+              "type": "percentage"
+            },
+            "unit": "total"
+          }
+        ],
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "parking_spaces": 2,
+        "property_type": "Departamento",
+        "lot_size": 0,
+        "construction_size": 128.9,
+        "updated_at": "2022-08-07T14:24:51-05:00",
+        "agent": null,
+        "show_prices": true,
+        "share_commission": false
+      }
+    ]
+  }

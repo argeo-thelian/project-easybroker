@@ -1,0 +1,29 @@
+{% if properties_data %}
+    {% if "Your API key is invalid" in properties_data.error %}
+    <div class="img-loader">
+        <h1 style="font-size: 100px;">401</h1>
+        
+        <p>{{properties_data.error}}</p>
+    </div>
+        
+    {% else %}
+    <div class="img-loader">
+        <h1 style="font-size: 100px;">400</h1>
+        
+        <p>{{properties_data.error}}</p>
+    </div>
+    {% endif %}
+{% else %}
+    {% if "Your API key is invalid" in payload_property.error %}
+    <div class="img-loader">
+        <h1 style="font-size: 100px;">401</h1>
+        <p>{{payload_property.error}}</p>
+    </div>
+        
+    {% else %}
+    <div class="img-loader">
+        <h1 style="font-size: 100px;">400</h1>
+        <p>{{payload_property.error}}</p>
+    </div>
+    {% endif %}
+{% endif %}

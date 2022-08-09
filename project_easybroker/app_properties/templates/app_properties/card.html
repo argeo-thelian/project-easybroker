@@ -1,0 +1,39 @@
+{% extends 'app_properties/base.html' %}
+{% block content %}
+<div class="container-fluid p-2 bg-primary text-white text-center">
+    <h1>Propiedades</h1>
+</div>
+<div class="container"> 
+        {% for property in properties_data.content %}
+            <div class="card" style="width: 18rem;">
+                {% if property.title_image_thumb %}
+                    <div class="img-thum">
+                        <img src="{{ property.title_image_thumb}}" class="card-img-top" alt="">
+                    </div>
+                {% else %} 
+                    <div class="img-loader">
+                        <div class="preloader">
+                            <img src="../../static/app_properties/no-photo-available.png" alt="">
+                        </div>
+                    </div>
+                {% endif %}
+                <div class="card-body">
+                  <h5 class="card-title">{{property.title}}</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">{{property.public_id}}</h6>
+                  <p class="card-text">{{property.property_type}}</p>
+                  
+                  <p class="card-text">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill-rule="evenodd" d="M11.536 3.464a5 5 0 010 7.072L8 14.07l-3.536-3.535a5 5 0 117.072-7.072v.001zm1.06 8.132a6.5 6.5 0 10-9.192 0l3.535 3.536a1.5 1.5 0 002.122 0l3.535-3.536zM8 9a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+                    <small class="text-muted">{{property.location}}</small></p>
+                  <a href="{% url 'easybroker:property' property.public_id %}" class="btn btn-primary">Ver más</a>
+                </div>
+            </div>
+       
+        {% empty %} 
+            {% include "app_properties/errors.html" %}              
+        {% endfor %}
+</div>
+
+      <!-- Conten Card -->
+    {% include "app_properties/footer.html" %}      
+{% endblock %}
