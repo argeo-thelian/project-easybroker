@@ -22,13 +22,13 @@ Crear migraciones con:
 Levantamos la aplicación con:
 - `...venv/project_easybroker> python manage.py runserver` y probamos el link principal que muestra en la terminal (`http://127.0.0.1:8000/`) agredando al final `easybroker/` 
 
-# Aplicacnion principal
+# Aplicación principal
 
 Al levantar la aplicación en ir al link `http://127.0.0.1:8000/easybroker/` se va a mostar los siguiente: 
 
-![Imagen de home](/venv/project_easybroker/img_readme/imagen1.png)
+![Imagen de home](./project_easybroker/img_readme/imagen1.png?raw=true)
 
-![Imagen de home final](/venv/project_easybroker/img_readme/imagen2.png)
+![Imagen de home final](./project_easybroker/img_readme/imagen2.png?raw=true)
 
 Lo que se puede llega a apreciar de las imágenes anteriores es que todas las propiedades contienen información como: 
 - Imagen thumb
@@ -39,21 +39,21 @@ Lo que se puede llega a apreciar de las imágenes anteriores es que todas las pr
 
 Al final de cada 'card' tienen un botón de `Ver más`. Este nos redireccionará a un apartado donde se visualizan más detalles. Y en el pie de página se puede visualizar los botones para el cambio de las páginas
 
-![Imagen cambio de página](/venv/project_easybroker/img_readme/imagen3.png)
+![Imagen cambio de página](./project_easybroker/img_readme/imagen3.png?raw=true)
 
 Si se cambia de página se actualiza en URL `http://127.0.0.1:8000/easybroker/3`
 
-![Imagen agregar dato grande en path](/venv/project_easybroker/img_readme/imagen4.png)
+![Imagen agregar dato grande en path](./project_easybroker/img_readme/imagen4.png?raw=true)
 
 Si se intenta agregar un número muy grande en el path como se muestra el número `/123123` nos devuelve la primera página
 
-![Error por API Key](/venv/project_easybroker/img_readme/imagen5.png)
+![Error por API Key](./project_easybroker/img_readme/imagen5.png?raw=true)
 
 En caso de que exista un error por API KEY
 
 ## Botón ver más
 
-![Ver más](/venv/project_easybroker/img_readme/imagen6.png)
+![Ver más](./project_easybroker/img_readme/imagen6.png?raw=true)
 
 Al seleccionar el botón "Ver más" nos redirige a la URL `http://127.0.0.1:8000/easybroker/property/{property_id}` siendo este caso `property_id = EB-C6353` 
 
@@ -74,15 +74,15 @@ El Contacto:
 
 Al realizar el llenado del formulario se valida la información y se envían distintas alertas según el campo, por medio del Backend y Frontend. Si el formulario está llenado exitosamente, se vincula el identificador público de la propiedad al contacto, el dominio 
 
-![Validación mensaje](/venv/project_easybroker/img_readme/imagen7.png)
+![Validación mensaje](./project_easybroker/img_readme/imagen7.png?raw=true)
 
 Esta imagen muestra como se vería una propiedad que no cuenta con imágenes y cuando no se agrega el mensaje en el formulario de contacto, Nota: escribí el mensaje después de presionar enviar.
 
-![Validación correo](/venv/project_easybroker/img_readme/imagen8.png)
+![Validación correo](./project_easybroker/img_readme/imagen8.png?raw=true)
 
 Se muestran el mensaje según validación
 
-![Validación correcta](/venv/project_easybroker/img_readme/imagen9.png)
+![Validación correcta](./project_easybroker/img_readme/imagen9.png?raw=true)
 
 Al enviar la validación correctamente se muestra el mensaje de respuesta del endpoint `/contact_requests`
 
