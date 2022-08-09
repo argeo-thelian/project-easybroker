@@ -26,7 +26,7 @@ Levantamos la aplicación con:
 
 Al levantar la aplicación en ir al link `http://127.0.0.1:8000/easybroker/` se va a mostar los siguiente: 
 
-![Imagen de home](/venv/project_easybroker/img_readme/imagen1.png)
+![Imagen de home](./project_easybroker/img_readme/imagen1.png?raw=true)
 
 ![Imagen de home final](/venv/project_easybroker/img_readme/imagen2.png)
 
